@@ -1,5 +1,3 @@
-# Team Tech Testify
-
-- Make different directory for different mini apps in `apps/`
-- The directory name should be in `kebab-case`
+# HRS codes 
+> This branch contains work of Harsh Raj Singh in tech testify team project.
 
