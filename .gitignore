@@ -1,1 +1,20 @@
 /.metadata/
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Eclipse specific files
+.metadata/
+.classpath
+.project
+.settings/
+
+# Maven/Build artifacts
+target/
+bin/
+
+# Test reports (like your untracked test-output folder)
+test-output/
