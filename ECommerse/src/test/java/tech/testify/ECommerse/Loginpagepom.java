@@ -22,6 +22,9 @@ WebDriver driver;
 	@FindBy(xpath = "//p[normalize-space()='Your email or password is incorrect!']")
 	WebElement incorrect;
 	
+	@FindBy(xpath = "//b[normalize-space()='aayushjha']")
+	WebElement loggedInUser;
+	
 	public Loginpagepom(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -35,8 +38,10 @@ WebDriver driver;
 		
 	}
 	
+	public boolean isuserloggedin() {
+		return loggedInUser.isDisplayed();		
+	}
 	public boolean isincorrectmsgshown() {
 		return incorrect.isDisplayed();
 	}
-	
 }
